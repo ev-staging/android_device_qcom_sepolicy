@@ -39,3 +39,6 @@ allow untrusted_app gba_auth_service:service_manager find;
 #      some addtional change.
 # allow untrusted apps to access hal_perf
 # hal_client_domain(untrusted_app, hal_perf);
+
+# allow apps to read battery status
+r_dir_file(untrusted_app, sysfs_battery_supply)
