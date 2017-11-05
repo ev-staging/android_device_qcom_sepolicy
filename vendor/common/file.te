@@ -370,3 +370,6 @@ type sysfs_usb_controller, sysfs_type, fs_type;
 
 # time data files
 type time_data_file, file_type, data_file_type, core_data_file_type;
+
+# Power
+type debugfs_rpm, debugfs_type, fs_type;
