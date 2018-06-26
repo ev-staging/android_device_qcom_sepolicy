@@ -410,3 +410,6 @@ type vendor_capabilityconfigstore_data_file, file_type, data_file_type;
 
 #sensor log files
 type sensors_vendor_data_file, file_type, data_file_type;
+
+# time data files
+type time_data_file, file_type, data_file_type, core_data_file_type;

@@ -518,6 +518,7 @@
 ###################################
 # data files-- only vendor paths should be added
 #
+/data/time(/.*)?                                                    u:object_r:time_data_file:s0
 /data/vendor/nfc(/.*)?                                              u:object_r:nfc_vendor_data_file:s0
 /data/vendor/audio(/.*)?                                            u:object_r:vendor_audio_data_file:s0
 /data/vendor/connectivity(/.*)?                                     u:object_r:cnd_data_file:s0
