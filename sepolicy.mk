@@ -1,3 +1,8 @@
+# Ignore neverallows for legacy devices
+ifneq ($(TARGET_BUILD_VARIANT),user)
+SELINUX_IGNORE_NEVERALLOWS := true
+endif
+
 # Board specific SELinux policy variable definitions
 BOARD_SEPOLICY_DIRS += \
     device/qcom/sepolicy-legacy/common \
