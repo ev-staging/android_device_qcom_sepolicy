@@ -30,6 +30,7 @@
 #binder_use(hal_graphics_composer)
 #')
 
+# Allow read to '/sys/kernel/debug/*'
 userdebug_or_eng(`
     diag_use(hal_graphics_composer)
     # Allow read to /sys/kernel/debug/*
