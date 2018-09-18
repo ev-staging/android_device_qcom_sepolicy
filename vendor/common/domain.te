@@ -29,6 +29,7 @@ neverallow {
     -init
     -ueventd
     -vold
+    -system_writes_mnt_vendor_violators
 } vendor_persist_type: { dir file } *;
 
 allow { domain - coredomain } mnt_vendor_file:lnk_file r_file_perms;
